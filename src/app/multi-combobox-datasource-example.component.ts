@@ -46,17 +46,7 @@ export class MultiComboboxDatasourceExampleComponent {
     { id: '28', name: 'Ford', type: 'Cars' },
   ];
 
-  selectedItems2 = [
-    { id: '20', name: 'Italy', type: 'Countries' },
-    { id: '21', name: 'Azerbaijan', type: 'Countries' },
-    { id: '22', name: 'Germany', type: 'Countries' },
-    { id: '23', name: 'Audi', type: 'Cars' },
-    { id: '24', name: 'Mercedes', type: 'Cars' },
-    { id: '25', name: 'Tesla', type: 'Cars' },
-    { id: '26', name: 'Porsche', type: 'Cars' },
-    { id: '27', name: 'Toyota', type: 'Cars' },
-    { id: '28', name: 'Ford', type: 'Cars' },
-  ];
+  selectedItems2 = [];
 
   DataSource1 = new MultiComboBoxDataSource(
     new BaseDataProviderCustom(this.dataSource)
